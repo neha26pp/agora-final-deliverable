@@ -151,7 +151,7 @@ async function muteVideo() {
     localTrackState.videoTrackEnabled = false;
     console.log("------------------------");
     console.log("Muted Video.");
-    $("#video-btn").text("Start Video");
+    $("#video-btn").text("Stop Video");
 }
 
 async function unmuteVideo() {
@@ -162,7 +162,7 @@ async function unmuteVideo() {
     localTrackState.videoTrackEnabled = true;
     console.log("------------------------");
     console.log("Unmuted Video.");
-    $("#video-btn").text("Stop Video");
+    $("#video-btn").text("Start Video");
 }
 
 
